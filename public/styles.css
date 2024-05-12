@@ -44,6 +44,39 @@ section {
   background: #f4f4f4;
 }
 
+.propic {
+  height: 24rem;
+  width: 24rem;
+  border-radius: 100%;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blinking-cursor {
+  height: 2rem;
+  width: 0.25rem;
+  background: #333;
+  border-radius: 0.125rem;
+  animation: blink-animation 1s ease-in-out infinite;
+}
+
+@keyframes blink-animation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 /* Projects section */
 #projects {
   background: #eee;
