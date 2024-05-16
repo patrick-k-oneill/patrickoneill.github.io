@@ -105,6 +105,21 @@ section {
   background: #eee;
 }
 
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+}
+
+.gallery img {
+  flex-shrink: 0;
+  width: auto;
+  height: 35rem;
+}
+
 .project {
   margin-bottom: 2rem;
 }
