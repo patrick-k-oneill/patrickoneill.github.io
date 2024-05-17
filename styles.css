@@ -120,6 +120,17 @@ section {
   height: 35rem;
 }
 
+.logo-title {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo-title img {
+  flex-shrink: 0;
+  width: 4rem;
+  height: 4rem;
+}
+
 .project {
   margin-bottom: 2rem;
 }
@@ -138,6 +149,13 @@ section {
 
 .project a:hover {
   background: #555;
+}
+
+.project .disclaimer {
+  border-radius: 1rem;
+  padding: 1rem;
+  background: #ddd;
+  width: fit-content;
 }
 
 /* Contact section */
